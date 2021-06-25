@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat';
+    background-color: #F2F4F8;
+    color: #424242;
+}
+.code-key{
+    width: 100%;
+    text-align: center;
+    font-size: 200px;
+    padding-top: 110px;
+}
+.event-show{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+}
+.show-box{
+    width: 200px;
+}
+.show-box:hover{
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+      0 24px 46px var(--card-hover);
+}
+.event-title{
+    width: 100%;
+    background-color: #B9E9FF;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+}
+.event-key{
+    width: 100%;
+    background-color: white;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+
+}
+.event-which{
+    width: 100%;
+    background-color: white;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+
+
